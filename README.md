@@ -17,4 +17,6 @@
 新的会议会给你发邮件提醒
 
 
-最后我使用了yuantailing的tunet包。这个项目的地址是https://github.com/yuantailing/tunet-python，感谢大佬！
+最后我使用了yuantailing的tunet包。这个项目的地址是https://github.com/yuantailing/tunet-python
+
+感谢大佬！
