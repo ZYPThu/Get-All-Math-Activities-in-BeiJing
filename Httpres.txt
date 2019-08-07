@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Postdoc Seminar - 北京国际数学研究中心</title>
+	<title>Colloquium - 北京国际数学研究中心</title>
 	<meta name="keywords" content="北京国际数学研究中心" />
 	<meta name="description" content="北京国际数学研究中心" />
 			<link href="http://bicmr.pku.edu.cn/css/index.css" rel="stylesheet" type="text/css" />
@@ -72,7 +72,7 @@ $("#q").val("");
     <div class="page-pos">
     	<div class="Layer wrap">
 					 <a href="http://bicmr.pku.edu.cn/">Home</a>
-		&nbsp;<span>-></span>&nbsp;<a href="/content/lists/17.html">Science</a>&nbsp;<span>-></span>&nbsp;<a href="/content/lists/34.html">Seminars</a>&nbsp;<span>-></span>&nbsp;<a href="/content/lists/47.html">Postdoc Seminar</a>        </div>
+		&nbsp;<span>-></span>&nbsp;<a href="/content/lists/17.html">Science</a>&nbsp;<span>-></span>&nbsp;<a href="/content/lists/34.html">Seminars</a>&nbsp;<span>-></span>&nbsp;<a href="/content/lists/52.html">Others</a>        </div>
     </div>
 </div>
 
@@ -81,144 +81,144 @@ $("#q").val("");
 		<div class="contents">
 			<div class="aboutp clearfix" style="padding-top:40px;">
 				<div class="list-l">
-					<h5>Postdoc Seminar</h5>
+					<h5>Others</h5>
 																	<dl class="clearfix event-lst">
 							<dt>
-								<span>2019</span>
-								<p>Jun 26</p>
+								<span>2018</span>
+								<p>May 25</p>
 							</dt>
 														<dd style="width:565px">
-								<p><a href="/content/lists/47.html" title="Postdoc Seminar" target="_blank">Postdoc Seminar</a> </p>
+								<p><a href="/content/lists/52.html" title="Others" target="_blank">Others</a> </p>
 								<p class="black">
-									<a href="/content/show/47-2208.html" title="Linear Forms in Logarithms on Commutative Algebraic Groups">Linear Forms in Logarithms on Commutative Algebraic Groups</a>
+									<a href="/content/show/52-2018.html" title="Studying Mathematics in France: an Overview">Studying Mathematics in France: an Overview</a>
 								</p>
-								<p class="speaker">Speaker(s): Francois Ballay</p>
-							</dd>
-						</dl>
-												<dl class="clearfix event-lst">
-							<dt>
-								<span>2019</span>
-								<p>May 08</p>
-							</dt>
-														<dd style="width:565px">
-								<p><a href="/content/lists/47.html" title="Postdoc Seminar" target="_blank">Postdoc Seminar</a> </p>
-								<p class="black">
-									<a href="/content/show/47-2182.html" title="Global Attractor for the Two-dimensional Zakharov-Kuznetsov Equation">Global Attractor for the Two-dimensional Zakharov-Kuznetsov Equation</a>
-								</p>
-								<p class="speaker">Speaker(s): Minjie Shan (Chinese Academy of Sciences)</p>
-							</dd>
-						</dl>
-												<dl class="clearfix event-lst">
-							<dt>
-								<span>2019</span>
-								<p>Apr 23</p>
-							</dt>
-														<dd style="width:565px">
-								<p><a href="/content/lists/47.html" title="Postdoc Seminar" target="_blank">Postdoc Seminar</a> </p>
-								<p class="black">
-									<a href="/content/show/47-2176.html" title="Self-dual Artin representations of dimension three">Self-dual Artin representations of dimension three</a>
-								</p>
-								<p class="speaker">Speaker(s): Aditya Karnataki</p>
-							</dd>
-						</dl>
-												<dl class="clearfix event-lst">
-							<dt>
-								<span>2019</span>
-								<p>Apr 10</p>
-							</dt>
-														<dd style="width:565px">
-								<p><a href="/content/lists/47.html" title="Postdoc Seminar" target="_blank">Postdoc Seminar</a> </p>
-								<p class="black">
-									<a href="/content/show/47-2170.html" title="Global dynamics of wave maps and Schrodinger maps">Global dynamics of wave maps and Schrodinger maps</a>
-								</p>
-								<p class="speaker">Speaker(s): Ze Li </p>
-							</dd>
-						</dl>
-												<dl class="clearfix event-lst">
-							<dt>
-								<span>2019</span>
-								<p>Mar 27</p>
-							</dt>
-														<dd style="width:565px">
-								<p><a href="/content/lists/47.html" title="Postdoc Seminar" target="_blank">Postdoc Seminar</a> </p>
-								<p class="black">
-									<a href="/content/show/47-2162.html" title="Hyperbolic structures and singular flows">Hyperbolic structures and singular flows</a>
-								</p>
-								<p class="speaker">Speaker(s): Adriana da Luz</p>
-							</dd>
-						</dl>
-												<dl class="clearfix event-lst">
-							<dt>
-								<span>2019</span>
-								<p>Mar 14</p>
-							</dt>
-														<dd style="width:565px">
-								<p><a href="/content/lists/47.html" title="Postdoc Seminar" target="_blank">Postdoc Seminar</a> </p>
-								<p class="black">
-									<a href="/content/show/47-2152.html" title="An introduction to wave maps">An introduction to wave maps</a>
-								</p>
-								<p class="speaker">Speaker(s): Jue Liu  (Tsinghua University)</p>
-							</dd>
-						</dl>
-												<dl class="clearfix event-lst">
-							<dt>
-								<span>2019</span>
-								<p>Feb 28</p>
-							</dt>
-														<dd style="width:565px">
-								<p><a href="/content/lists/47.html" title="Postdoc Seminar" target="_blank">Postdoc Seminar</a> </p>
-								<p class="black">
-									<a href="/content/show/47-2134.html" title="The Loewner-Nirenberg  problem in singular domains ">The Loewner-Nirenberg  problem in singular domains </a>
-								</p>
-								<p class="speaker">Speaker(s): Weiming Shen</p>
-							</dd>
-						</dl>
-												<dl class="clearfix event-lst">
-							<dt>
-								<span>2019</span>
-								<p>Jan 17</p>
-							</dt>
-														<dd style="width:565px">
-								<p><a href="/content/lists/47.html" title="Postdoc Seminar" target="_blank">Postdoc Seminar</a> </p>
-								<p class="black">
-									<a href="/content/show/47-2128.html" title="Cyclotron  Damping along a Uniform Magnetic Field">Cyclotron  Damping along a Uniform Magnetic Field</a>
-								</p>
-								<p class="speaker">Speaker(s): Xixia Ma (Yau Mathematical Sciences Center, Tsinghua University)</p>
-							</dd>
-						</dl>
-												<dl class="clearfix event-lst">
-							<dt>
-								<span>2019</span>
-								<p>Jan 17</p>
-							</dt>
-														<dd style="width:565px">
-								<p><a href="/content/lists/47.html" title="Postdoc Seminar" target="_blank">Postdoc Seminar</a> </p>
-								<p class="black">
-									<a href="/content/show/47-2127.html" title="Uniform well-posedness and inviscid limit behavior for the Benjamin-Ono-Burgers equations">Uniform well-posedness and inviscid limit behavior for the Benjamin-Ono-Burgers equations</a>
-								</p>
-								<p class="speaker">Speaker(s): Mingjuan Chen (Institute of Applied Physics and Computational Mathematics)</p>
+								<p class="speaker">Speaker(s):  Olivier Debarre (École normale supérieure)</p>
 							</dd>
 						</dl>
 												<dl class="clearfix event-lst">
 							<dt>
 								<span>2018</span>
-								<p>Dec 26</p>
+								<p>Mar 01</p>
 							</dt>
 														<dd style="width:565px">
-								<p><a href="/content/lists/47.html" title="Postdoc Seminar" target="_blank">Postdoc Seminar</a> </p>
+								<p><a href="/content/lists/52.html" title="Others" target="_blank">Others</a> </p>
 								<p class="black">
-									<a href="/content/show/47-2118.html" title="The index of a perturbed Dirac operator on non-compact manifolds">The index of a perturbed Dirac operator on non-compact manifolds</a>
+									<a href="/content/show/52-1948.html" title="Undergraduate Geometry Seminar: Organization and Overview">Undergraduate Geometry Seminar: Organization and Overview</a>
 								</p>
-								<p class="speaker">Speaker(s): Dr. Pengshuai Shi (BICMR)</p>
+								<p class="speaker">Speaker(s):  Yi Liu (BICMR)</p>
 							</dd>
 						</dl>
-																<div class='page' style='border: medium none;'><a href='javascript:;' class='pre' id='prevbtn'>Pre</a><a href='javascript:;' class='active'>1</a><a href='/content/lists/47_2.html'>2</a><a href='/content/lists/47_3.html'>3</a><a href='/content/lists/47_4.html'>4</a><a href='/content/lists/47_5.html'>5</a><a href='/content/lists/47_6.html'>6</a><a href='/content/lists/47_7.html'>7</a><a href='/content/lists/47_8.html'>8</a><a href='/content/lists/47_2.html' class='pre' id='nextbtn'>Next</a></div>				</div>
+												<dl class="clearfix event-lst">
+							<dt>
+								<span>2013</span>
+								<p>May 27</p>
+							</dt>
+														<dd style="width:565px">
+								<p><a href="/content/lists/52.html" title="Others" target="_blank">Others</a> </p>
+								<p class="black">
+									<a href="/content/show/52-1130.html" title="Strong cosmic censorship in T^3-Gowdy spacetimes">Strong cosmic censorship in T^3-Gowdy spacetimes</a>
+								</p>
+								<p class="speaker">Speaker(s): Weiping Yan（BICMR, PKU）</p>
+							</dd>
+						</dl>
+												<dl class="clearfix event-lst">
+							<dt>
+								<span>2013</span>
+								<p>May 20</p>
+							</dt>
+														<dd style="width:565px">
+								<p><a href="/content/lists/52.html" title="Others" target="_blank">Others</a> </p>
+								<p class="black">
+									<a href="/content/show/52-1124.html" title="An example of a weakly hyperbolic Cauchy problem not well posed in C∞">An example of a weakly hyperbolic Cauchy problem not well posed in C∞</a>
+								</p>
+								<p class="speaker">Speaker(s): 沈伟明 （BICMR, PKU）</p>
+							</dd>
+						</dl>
+												<dl class="clearfix event-lst">
+							<dt>
+								<span>2013</span>
+								<p>May 13</p>
+							</dt>
+														<dd style="width:565px">
+								<p><a href="/content/lists/52.html" title="Others" target="_blank">Others</a> </p>
+								<p class="black">
+									<a href="/content/show/52-1116.html" title="Deacy estimates for solutions to the linear wave equation on a Schwarzschild black hole, III">Deacy estimates for solutions to the linear wave equation on a Schwarzschild black hole, III</a>
+								</p>
+								<p class="speaker">Speaker(s): Prof. Zhang Zhifei（School of Mathematical Sciences, PKU）</p>
+							</dd>
+						</dl>
+												<dl class="clearfix event-lst">
+							<dt>
+								<span>2013</span>
+								<p>Apr 22</p>
+							</dt>
+														<dd style="width:565px">
+								<p><a href="/content/lists/52.html" title="Others" target="_blank">Others</a> </p>
+								<p class="black">
+									<a href="/content/show/52-1112.html" title="Deacy estimates for solutions to the linear wave equation on a Schwarzschild black hole, II">Deacy estimates for solutions to the linear wave equation on a Schwarzschild black hole, II</a>
+								</p>
+								<p class="speaker">Speaker(s): Prof. Zhang Zhifei（School of Mathematical Sciences, PKU）</p>
+							</dd>
+						</dl>
+												<dl class="clearfix event-lst">
+							<dt>
+								<span>2013</span>
+								<p>Apr 15</p>
+							</dt>
+														<dd style="width:565px">
+								<p><a href="/content/lists/52.html" title="Others" target="_blank">Others</a> </p>
+								<p class="black">
+									<a href="/content/show/52-1106.html" title="The Bounded L2 Curvature Conjecture">The Bounded L2 Curvature Conjecture</a>
+								</p>
+								<p class="speaker">Speaker(s): Zhang Xiao (Institute of Mathematics, CAS)</p>
+							</dd>
+						</dl>
+												<dl class="clearfix event-lst">
+							<dt>
+								<span>2013</span>
+								<p>Apr 08</p>
+							</dt>
+														<dd style="width:565px">
+								<p><a href="/content/lists/52.html" title="Others" target="_blank">Others</a> </p>
+								<p class="black">
+									<a href="/content/show/52-1100.html" title="Deacy estimates for solutions to the linear wave equation on a Schwarzschild black hole, I">Deacy estimates for solutions to the linear wave equation on a Schwarzschild black hole, I</a>
+								</p>
+								<p class="speaker">Speaker(s): Prof. Zhang Zhifei（School of Mathematical Sciences, PKU）</p>
+							</dd>
+						</dl>
+												<dl class="clearfix event-lst">
+							<dt>
+								<span>2013</span>
+								<p>Apr 01</p>
+							</dt>
+														<dd style="width:565px">
+								<p><a href="/content/lists/52.html" title="Others" target="_blank">Others</a> </p>
+								<p class="black">
+									<a href="/content/show/52-1098.html" title="Future stability of the Einstein-non-linear scalar field system">Future stability of the Einstein-non-linear scalar field system</a>
+								</p>
+								<p class="speaker">Speaker(s): Weiping Yan（BICMR）</p>
+							</dd>
+						</dl>
+												<dl class="clearfix event-lst">
+							<dt>
+								<span>2013</span>
+								<p>Mar 25</p>
+							</dt>
+														<dd style="width:565px">
+								<p><a href="/content/lists/52.html" title="Others" target="_blank">Others</a> </p>
+								<p class="black">
+									<a href="/content/show/52-1092.html" title="Linear wave equations on Schwarzschild and Kerr spacetimes">Linear wave equations on Schwarzschild and Kerr spacetimes</a>
+								</p>
+								<p class="speaker">Speaker(s): Zhang Xiao (Institute of Mathematics, CAS)</p>
+							</dd>
+						</dl>
+																<div class='page' style='border: medium none;'><a href='javascript:;' class='pre' id='prevbtn'>Pre</a><a href='javascript:;' class='active'>1</a><a href='/content/lists/52_2.html'>2</a><a href='/content/lists/52_3.html'>3</a><a href='/content/lists/52_2.html' class='pre' id='nextbtn'>Next</a></div>				</div>
 
 				<div class="list-r">
 										<div class="s-events">
 						<h4>Science</h4>
 						<ul class="conf">
-							<li><em><a  href="/content/lists/17.html?y=0">Conference</a></em></li><li><em><a  href="/content/lists/70.html?y=0">Mini-Course</a></em></li><li><em><a  href="/content/lists/18.html?y=0">Colloquium</a></em></li><li><em><a  href="/content/lists/20.html?y=0">Seminars</a></em><span class="minus"></span><ul class="add-li" style="display:block;"><li><em><a  href="/content/lists/34.html?y=0">Algebra</a></em></li><li><em><a  href="/content/lists/35.html?y=0">Algebraic Geometry</a></em></li><li><em><a  href="/content/lists/40.html?y=0">Applied & Computational Math</a></em></li><li><em><a  href="/content/lists/65.html?y=0">Bio-Math Seminar</a></em></li><li><em><a  href="/content/lists/41.html?y=0">Computational Method</a></em></li><li><em><a  href="/content/lists/43.html?y=0">Geometric Analysis</a></em></li><li><em><a  href="/content/lists/67.html?y=0">Mathematical Imaging Science</a></em></li><li><em><a  href="/content/lists/44.html?y=0">Number Theory</a></em></li><li><em><a  href="/content/lists/45.html?y=0">Operations Research</a></em></li><li><em><a  href="/content/lists/46.html?y=0">PDE/Analysis</a></em></li><li><em><a class="prest" href="/content/lists/47.html?y=0">Postdoc Seminar</a></em></li><li><em><a  href="/content/lists/73.html?y=0">Probability and Stochastic Process</a></em></li><li><em><a  href="/content/lists/48.html?y=0">Representation Theory and Quantum Math</a></em></li><li><em><a  href="/content/lists/49.html?y=0">Symplectic Geometry and Mathematical Physics</a></em></li><li><em><a  href="/content/lists/50.html?y=0">Topology</a></em></li><li><em><a  href="/content/lists/52.html?y=0">Others</a></em></li></ul></li><li><em><a  href="/content/page/22.html?y=0">Visiting Program</a></em></li><li><em><a  href="/content/page/60.html?y=0">Laboratories</a></em></li><li><em><a  href="/content/page/68.html?y=0">Special Events</a></em></li>						</ul>
+							<li><em><a  href="/content/lists/17.html?y=0">Conference</a></em></li><li><em><a  href="/content/lists/70.html?y=0">Mini-Course</a></em></li><li><em><a  href="/content/lists/18.html?y=0">Colloquium</a></em></li><li><em><a  href="/content/lists/20.html?y=0">Seminars</a></em><span class="minus"></span><ul class="add-li" style="display:block;"><li><em><a  href="/content/lists/34.html?y=0">Algebra</a></em></li><li><em><a  href="/content/lists/35.html?y=0">Algebraic Geometry</a></em></li><li><em><a  href="/content/lists/40.html?y=0">Applied & Computational Math</a></em></li><li><em><a  href="/content/lists/65.html?y=0">Bio-Math Seminar</a></em></li><li><em><a  href="/content/lists/41.html?y=0">Computational Method</a></em></li><li><em><a  href="/content/lists/43.html?y=0">Geometric Analysis</a></em></li><li><em><a  href="/content/lists/67.html?y=0">Mathematical Imaging Science</a></em></li><li><em><a  href="/content/lists/44.html?y=0">Number Theory</a></em></li><li><em><a  href="/content/lists/45.html?y=0">Operations Research</a></em></li><li><em><a  href="/content/lists/46.html?y=0">PDE/Analysis</a></em></li><li><em><a  href="/content/lists/47.html?y=0">Postdoc Seminar</a></em></li><li><em><a  href="/content/lists/73.html?y=0">Probability and Stochastic Process</a></em></li><li><em><a  href="/content/lists/48.html?y=0">Representation Theory and Quantum Math</a></em></li><li><em><a  href="/content/lists/49.html?y=0">Symplectic Geometry and Mathematical Physics</a></em></li><li><em><a  href="/content/lists/50.html?y=0">Topology</a></em></li><li><em><a class="prest" href="/content/lists/52.html?y=0">Others</a></em></li></ul></li><li><em><a  href="/content/page/22.html?y=0">Visiting Program</a></em></li><li><em><a  href="/content/page/60.html?y=0">Laboratories</a></em></li><li><em><a  href="/content/page/68.html?y=0">Special Events</a></em></li>						</ul>
 					</div>
 
 					<script>
@@ -240,22 +240,16 @@ $("#q").val("");
 						<h5>ARCHIVES</h5>
 						<ul class="archives">
 																					<li class="first">
-									<a href="/content/lists/47_Y2019.html?y=2019">2019</a>&nbsp;<span class="arc_count">(9)</span>
+									<a href="/content/lists/52_Y2018.html?y=2018">2018</a>&nbsp;<span class="arc_count">(2)</span>
 								</li>
 																												<li class="first">
-									<a href="/content/lists/47_Y2018.html?y=2018">2018</a>&nbsp;<span class="arc_count">(16)</span>
+									<a href="/content/lists/52_Y2013.html?y=2013">2013</a>&nbsp;<span class="arc_count">(11)</span>
 								</li>
 																												<li class="first">
-									<a href="/content/lists/47_Y2017.html?y=2017">2017</a>&nbsp;<span class="arc_count">(6)</span>
+									<a href="/content/lists/52_Y2012.html?y=2012">2012</a>&nbsp;<span class="arc_count">(2)</span>
 								</li>
-																												<li class="first">
-									<a href="/content/lists/47_Y2016.html?y=2016">2016</a>&nbsp;<span class="arc_count">(9)</span>
-								</li>
-																												<li class="first">
-									<a href="/content/lists/47_Y2015.html?y=2015">2015</a>&nbsp;<span class="arc_count">(28)</span>
-								</li>
-																												<li class="first">
-									<a href="/content/lists/47_Y2014.html?y=2014">2014</a>&nbsp;<span class="arc_count">(12)</span>
+																												<li class="older_archives last">
+									<a href="/content/lists/52_Y1.html?y=1">Older Archives</a>
 								</li>
 																			</ul>
 					</div>

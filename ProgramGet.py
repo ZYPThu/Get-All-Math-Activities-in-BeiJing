@@ -5,19 +5,40 @@ import datetime as dte
 import time
 import os
 import json
-
-#urls=['http://ymsc.tsinghua.edu.cn/sublist.asp?channel=4&classid=4']
-#在这里输入想要爬取的网页
-urls=['http://bicmr.pku.edu.cn/content/lists/70.html?y=0','http://bicmr.pku.edu.cn/content/lists/17.html?y=0','http://bicmr.pku.edu.cn/content/lists/18.html?y=0','http://bicmr.pku.edu.cn/content/lists/35.html?y=0','http://bicmr.pku.edu.cn/content/lists/47.html?y=0']
-
-
-
-
-
-
+import tunet
+import smtplib
+import os
+import socket
+import threading as td
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.image import MIMEImage
 
 
-def getinfopku():
+
+
+
+def getconf():
+    file=open('./configuration.txt','r')
+
+    con=[]
+    for l in file:
+        if '##' in l:
+            break
+        else:
+            p=l.find('=')
+            q=len(l)
+            con.append(l[p+1:q-1])
+    return con
+
+
+
+
+
+
+
+def getinfobicmr():
+    urls=geturl()
     hd={'Host': 'bicmr.pku.edu.cn',
 'Connection': 'keep-alive',
 'Cache-Control': 'max-age=0',
@@ -37,11 +58,19 @@ def getinfopku():
     ymd=''
     spk=''
     website=''
-    g=open('./Upcoming Academic Activities in PKU.csv','w',encoding='utf-8')
+    infonew=''
+
+    fileodd=open('./Interesting Academic Activities in PKU.csv','r',encoding='utf-8')
+    infoodd=fileodd.readlines()
+    fileodd.close()
+
+    g=open("./Upcoming Activities in PKU.csv",'w',encoding='utf-8')
     h=open('./Interesting Academic Activities in PKU.csv','w',encoding='utf-8')
     g.write('Title,Type,Date(Y/M/D),Speaker,Web Site\n')
     h.write('Title,Type,Date(Y/M/D),Speaker,Web Site\n')
 
+
+    
 
 
     for url in urls:
@@ -128,18 +157,49 @@ def getinfopku():
             if '<dl class=\"clearfix event-lst\">'in line1:
                 isneed=1
             if '</dd>' in line1:
-                
+   #更新信息             
                 isneed=0
                 updte,intes=Interestingornot(ymd,tit)
                 if updte==1:
                     g.write(tit+','+typ+','+ymd+','+spk+','+website+'\n')
                 if updte==1 and intes==1:
-                    h.write(tit+','+typ+','+ymd+','+spk+','+website+'\n')
+                    inff=tit+','+typ+','+ymd+','+spk+','+website+'\n'
+                    h.write(inff)
+                    if inff in (infoodd):
+                        print(1)
+                        infonew=infonew
+                    else:
+                        print(2)
+                        infonew=infonew+inff
                 tit=typ=ymd=spk=website=''
             
         f.close()
     g.close()
     h.close()
+
+    print(str(infoodd))
+
+    #有更新就返回新的信息
+    print(str(infonew))
+    return infonew
+    
+
+def geturl():
+    file=open('./PKUweb.txt','r')
+    urls=[]
+    for l in file:
+        if "##" in l:
+
+            break
+        llen=len(l)
+        if llen==1:
+            continue
+        l=l[0:llen-1]
+        print(l)
+    
+        urls.append(l)
+    print(urls)
+    return urls
 
 def getymd(yr,dt):
     month=dt[0:3]
@@ -181,6 +241,9 @@ def Interestingornot(ymd,tit):
     file=open('./KeyWords.txt','r')
     
     for l in file:
+        if "##" in l:
+            
+            break
         lt=len(l)
         l=l[0:lt-1]
         print(l)
@@ -191,6 +254,45 @@ def Interestingornot(ymd,tit):
 
     return uptodate,intes
 
-getinfopku()
+def sendEmail(smtpserver,username,password,sender,receiver,subject,msghtml):
+    try:
+        msgRoot =MIMEMultipart('reklated')
+        msgRoot['To']=','.join(receiver)
+        msgRoot['Subject']= subject
+        msgText = MIMEText(msghtml,'html','utf-8')
+        msgRoot.attach(msgText)
+        smtp = smtplib.SMTP()
+        smtp.connect(smtpserver,"25")
+        smtp.login(username,password)
+        for re in receiver:
+
+            smtp.sendmail(sender,re,str(msgRoot))
+        print ("YES")
+        smtp.quit()
+    except Exception as e:
+        print(e)
+        print('Test Failed')
+    else:
+        print('Test Succeed')
+
+
+if  __name__ == '__main__' :
+    #
+    try:
+        conf=[]
+        conf=getconf()
+        print(conf)
+        newinfo=getinfobicmr()
+        tunet.net.login(conf[0],conf[1])
+
+        if newinfo!='':
+            contss='New Upcoming Activities You Might be Interested:\n'+newinfo
+            sendEmail("mails.tsinghua.edu.cn",conf[2],conf[3],conf[2],[conf[4]],'Updates in Math Activities',contss)
+
+        #tunet.net.logout()
+    except Exception as e:
+        print(str(e))
+        print("!!!")
+
         
 

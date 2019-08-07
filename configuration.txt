@@ -1,0 +1,6 @@
+Tsinghua Account Name =wo shi shen me la ji
+Tsinghua Password =wo de shu xue shui ping hen xiang cai xu kun
+OutBox(Use this to send email)=wo shi shen me la ji@mails.tsinghua.edu.cn
+OutBox Password=wo shi xue shu la ji
+InBox(Use this to receive email)=***@llllll.com
+##
