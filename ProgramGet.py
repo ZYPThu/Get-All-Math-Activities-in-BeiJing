@@ -138,7 +138,7 @@ def getinfobicmr():
                         tit=tit.replace('“','"')
                         tit=tit.replace('”','"')
                         print(tit)
-                        if typ=='Mini-Course':
+                        if '/content/show/' in website:
                             website="http://bicmr.pku.edu.cn"+website
 
     #获取Speaker  
@@ -165,12 +165,13 @@ def getinfobicmr():
                 if updte==1 and intes==1:
                     inff=tit+','+typ+','+ymd+','+spk+','+website+'\n'
                     h.write(inff)
+                    inff1=inff.replace('\n','<br>')
                     if inff in (infoodd):
                         print(1)
                         infonew=infonew
                     else:
                         print(2)
-                        infonew=infonew+inff
+                        infonew=infonew+inff1
                 tit=typ=ymd=spk=website=''
             
         f.close()
@@ -283,10 +284,10 @@ if  __name__ == '__main__' :
         conf=getconf()
         print(conf)
         newinfo=getinfobicmr()
-        tunet.net.login(conf[0],conf[1])
+        #tunet.net.login(conf[0],conf[1])
 
         if newinfo!='':
-            contss='New Upcoming Activities You Might be Interested:\n'+newinfo
+            contss='New Upcoming Activities You Might be Interested:<br>'+newinfo
             sendEmail("mails.tsinghua.edu.cn",conf[2],conf[3],conf[2],[conf[4]],'Updates in Math Activities',contss)
 
         #tunet.net.logout()
